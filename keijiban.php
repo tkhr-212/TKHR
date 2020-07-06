@@ -87,7 +87,7 @@
         コメント:   
         <input type="text" name="comment" value="<?php echo $ecom;?>"><br>
         pass：
-        <input type="text" name="pass"><br>
+        <input type="password" name="pass"><br>
         <input type="hidden" name="number" value="<?php echo $enum;?>">
         <input type="submit" value="投稿"><br><br>
     </form>    
@@ -97,7 +97,7 @@
         投稿番号：
         <input type="number" name="delete"><br> 
         pass：
-        <input type="text"  name="dpass"><br>
+        <input type="password"  name="dpass"><br>
         <input type="submit" value="削除"><br><br>
     </form>
     <!--編集フォーム-->
@@ -106,7 +106,7 @@
         投稿番号：
         <input type="number" name="edit" ><br>
         pass：
-        <input type="text"  name="epass"><br>
+        <input type="password"  name="epass"><br>
         <input type="submit" value="編集">
     </form>
 <?php
