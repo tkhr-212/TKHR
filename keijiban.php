@@ -7,13 +7,12 @@
 <body>
 
 <?php
-
 	$name = (string)filter_input( INPUT_POST, "name" );//post送信された投稿者の名前
-    $comment = (string)filter_input( INPUT_POST, "comment");//post送信された投稿コメント
-    $delete = (string)filter_input( INPUT_POST, "delete");//postされた削除番号
-    $edit  = (string)filter_input( INPUT_POST, "edit");//postされた編集内容
-    $ednum = (string)filter_input( INPUT_POST, "number");//post送信された編集番号
-    $pass = (int)filter_input( INPUT_POST, "pass" );//post送信された投稿パスワード
+	$comment = (string)filter_input( INPUT_POST, "comment");//post送信された投稿コメント
+	$delete = (string)filter_input( INPUT_POST, "delete");//postされた削除番号
+	$edit  = (string)filter_input( INPUT_POST, "edit");//postされた編集内容
+	$ednum = (string)filter_input( INPUT_POST, "number");//post送信された編集番号
+	$pass = (int)filter_input( INPUT_POST, "pass" );//post送信された投稿パスワード
 	$dpass = (int)filter_input( INPUT_POST, "dpass" );//post送信された投稿パスワード
 	$epass = (int)filter_input( INPUT_POST, "epass" );//post送信された投稿パスワード
 	$date = date("Y/m/d H:i:s");
